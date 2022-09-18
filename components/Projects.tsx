@@ -80,7 +80,7 @@ function Projects({}: Props) {
                   opacity: 1,
                 }}
                 viewport={{ once: true }}
-                src={project.photoUrl}
+                src={project["photoUrl"]}
                 alt="SKILL"
                 className="w-96 rounded-sm "
               />
@@ -89,10 +89,10 @@ function Projects({}: Props) {
                   <span className="underline decoration-[#F7AB0A]/50">
                     Case Study {index + 1} of {projects.length} :&nbsp;
                   </span>
-                  {project.name}
+                  {project["name"]}
                 </h4>
                 <p className="text-lg text-center md:text-left">
-                  {project.description}
+                  {project["description"]}
                 </p>
               </div>
             </div>

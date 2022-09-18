@@ -59,8 +59,8 @@ export default function Skills({}: Props) {
             {skills.map((skill, index) => (
               <Skill
                 key={index}
-                name={skill.name}
-                image={skill.photoUrl}
+                name={skill["name"]}
+                image={skill["photoUrl"]}
                 directionLeft={index % 2 === 0 ? true : false}
               />
             ))}
