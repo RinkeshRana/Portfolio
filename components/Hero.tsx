@@ -32,7 +32,7 @@ function Hero({}: Props) {
           Hey! I&apos;m <span>{text}</span>
           <Cursor cursorColor="yellow" />
         </h1>
-        <div className="pt-5">
+        <div className="pt-5 space-x-2 space-y-2">
           <Link href={"#about"}>
             <button className="heroButton">About</button>
           </Link>

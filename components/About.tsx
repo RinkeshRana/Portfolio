@@ -30,9 +30,9 @@ function About({}: Props) {
             I have completed 10th with 57%, diploma in computer engineering with
             8.50 CGPA and now i am studying in BTech at SCET which i don&apos;t
             want to. I like to learn new things and i am a self taught
-            developer. I have learned react, nextjs, tailwindcss, typescript,
-            javascript, html, css, nodejs, expressjs, mongodb, firebase, git and
-            github, and all that other exciting stuffs.
+            developer. I have learned react, nextjs, tailwindcss, javascript,
+            html, css, nodejs, expressjs, mongodb, firebase, git and github, and
+            all that other exciting stuffs.
           </p>
         </h4>
       </div>
