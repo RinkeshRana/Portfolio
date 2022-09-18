@@ -22,11 +22,11 @@ function About({}: Props) {
         className="-mb-20 animate-floating md:md-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[400px] xl:h-[200px] "
       />
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold tracking-wide ">
+        <h4 className="text-xl md:text-4xl font-semibold tracking-wide ">
           Here is{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background
-          <p className="text-base text-justify mt-4 tracking-wide uppercase">
+          <p className="text-xs md:text-base text-center mt-4 md:tracking-wide uppercase">
             I have completed 10th with 57%, diploma in computer engineering with
             8.50 CGPA and now i am studying in BTech at SCET which i don&apos;t
             want to. I like to learn new things and i am a self taught

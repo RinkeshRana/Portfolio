@@ -85,13 +85,13 @@ function Projects({}: Props) {
                 className="w-96 rounded-sm "
               />
               <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-                <h4 className="text-xl md:text-3xl font-semibold text-center">
+                <h4 className="text-base md:text-3xl font-semibold text-center">
                   <span className="underline decoration-[#F7AB0A]/50">
                     Case Study {index + 1} of {projects.length} :&nbsp;
                   </span>
                   {project["name"]}
                 </h4>
-                <p className="text-lg text-center md:text-left">
+                <p className="md:text-lg text-center md:text-left text-sm">
                   {project["description"]}
                 </p>
               </div>

@@ -23,7 +23,7 @@ function Skill({ directionLeft, name, image }: Props) {
           transition={{ duration: 1 }}
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ x: directionLeft ? -50 : 100, opacity: 0 }}
-          className="text-center uppercase tracking-wide text-sm mt-2 text-gray-300 animate-pulse animate-floating"
+          className="text-center uppercase tracking-wide text-xs md:text-sm mt-2 text-gray-300 animate-pulse animate-floating"
         >
           {name}
         </motion.div>

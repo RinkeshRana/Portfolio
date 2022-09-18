@@ -28,7 +28,7 @@ function ContactMe({}: Props) {
         Contact
       </h3>
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+        <h4 className="text-base md:text-4xl font-semibold text-center mt-24">
           I have just got what you need.{" "}
           <span className="underline decoration-[#F7AB0A]/50">
             Let&apos;s talk
@@ -37,11 +37,11 @@ function ContactMe({}: Props) {
         <div className="space-y-10">
           <div className=" flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A]/50 h-7 w-7 animate-pulse " />
-            <p className="text-2xl">rinkeshr007@gmail.com</p>
+            <p className="text-xs md:text-2xl">rinkeshr007@gmail.com</p>
           </div>
           <div className=" flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A]/50 h-7 w-7 animate-pulse " />
-            <p className="text-2xl">Surat, Gujarat, India.</p>
+            <p className="text-xs md:text-2xl">Surat, Gujarat, India.</p>
           </div>
         </div>
         <form
@@ -52,7 +52,7 @@ function ContactMe({}: Props) {
             <input
               name="name"
               placeholder="Name"
-              className="contactInput"
+              className="contactInput px-3 w-1/2"
               type="text"
               onChange={(e) =>
                 setFormValues({ ...formValues, name: e.target.value })
@@ -61,7 +61,7 @@ function ContactMe({}: Props) {
             <input
               name="email"
               placeholder="Email"
-              className="contactInput"
+              className="contactInput w-1/2"
               type="email"
               onChange={(e) =>
                 setFormValues({ ...formValues, email: e.target.value })

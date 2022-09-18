@@ -28,7 +28,7 @@ function Hero({}: Props) {
         <h2 className="text-sm text-gray-500 uppercase pb-2 tracking-[15px]">
           Software Developer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-semibold px-10">
           Hey! I&apos;m <span>{text}</span>
           <Cursor cursorColor="yellow" />
         </h1>
