@@ -30,7 +30,7 @@ function About({}: Props) {
           I have a strong interest in computer engineering and web development.
           I completed my 10th grade with 57% marks and then pursued a diploma
            in computer engineering with 8.50 CGPA. Currently, I am studying
-           B.Tech at SCET, but I am not satisfied with the curriculum. I prefer 4
+           B.Tech at SCET, but I am not satisfied with the curriculum. I prefer
            to learn new things on my own and I have taught myself various skills and 
            technologies such as React, Next.js, TailwindCSS, JavaScript, HTML, 
            CSS, Node.js, Express.js, MongoDB, Firebase, Git and GitHub. 
