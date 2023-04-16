@@ -27,12 +27,14 @@ function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background
           <p className="text-xs md:text-base text-center mt-4 md:tracking-wide uppercase">
-            I have completed 10th with 57%, diploma in computer engineering with
-            8.50 CGPA and now i am studying in BTech at SCET which i don&apos;t
-            want to. I like to learn new things and i am a self taught
-            developer. I have learned react, nextjs, tailwindcss, javascript,
-            html, css, nodejs, expressjs, mongodb, firebase, git and github, and
-            all that other exciting stuffs.
+          I have a strong interest in computer engineering and web development.
+          I completed my 10th grade with 57% marks and then pursued a diploma
+           in computer engineering with 8.50 CGPA. Currently, I am studying
+           B.Tech at SCET, but I am not satisfied with the curriculum. I prefer 4
+           to learn new things on my own and I have taught myself various skills and 
+           technologies such as React, Next.js, TailwindCSS, JavaScript, HTML, 
+           CSS, Node.js, Express.js, MongoDB, Firebase, Git and GitHub. 
+           I enjoy working on exciting projects that challenge me and allow me to apply my knowledge.
           </p>
         </h4>
       </div>
