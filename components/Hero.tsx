@@ -17,13 +17,13 @@ function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center  text-center overflow-hidden">
       <BackgroundCircles />
-      <Image
+      {/* <Image
         src={"/author-image.jpeg"}
         alt="Picture of the author"
         width={200}
         height={200}
         className="rounded-full h-32 w-32 mx-auto relative object-cover"
-      />
+      /> */}
       <div className="z-20">
         <h2 className="text-sm text-gray-500 uppercase pb-2 tracking-[15px]">
           Software Developer
