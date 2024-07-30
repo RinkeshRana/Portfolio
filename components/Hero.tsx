@@ -8,7 +8,7 @@ type Props = {};
 
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Rinkesh.", "a Fullstack Developer.", "an Open Source Enthusiast."],
+    words: ["Rinkesh.", "a Fullstack Developer."],
     loop: 0,
     deleteSpeed: 50,
     typeSpeed: 100,
@@ -26,25 +26,26 @@ function Hero({}: Props) {
       /> */}
       <div className="z-20">
         <h2 className="text-sm text-gray-500 uppercase pb-2 tracking-[15px]">
-          Software Developer
+          Website Developer
         </h2>
         <h1 className="text-2xl md:text-5xl lg:text-6xl font-semibold px-10">
           Hey! I&apos;m <span>{text}</span>
           <Cursor cursorColor="yellow" />
         </h1>
-        <div className="pt-5 space-x-2 space-y-2">
+        <div className="flex flex-wrap justify-center items-center pt-5 gap-x-2 gap-y-2">
           <Link href={"#about"}>
             <button className="heroButton">About</button>
           </Link>
-          <Link href={"#experience"}>
-            <button className="heroButton">Experience</button>
-          </Link>
+      
           <Link href={"#skills"}>
             <button className="heroButton">Skills</button>
           </Link>
 
           <Link href={"#projects"}>
             <button className="heroButton">Projects</button>
+          </Link>
+          <Link href={"#contact"}>
+            <button className="heroButton">Contact</button>
           </Link>
         </div>
       </div>
